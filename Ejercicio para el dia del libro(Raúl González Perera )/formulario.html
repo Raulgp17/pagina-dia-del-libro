@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<Head>
+      <title>formulario</title>
+  	<meta charset="UTF-8"/>
+  	<link rel="icon" type="image/png" href="Imagenes/Favicoin.PNG" />
+    <link rel="stylesheet" type="text/css" href="tercsss.css"  />
+</Head>
+<Body>
+    <center> <nav> 
+        <p><a href="Inicio.html">Inicio</a>&nbsp; 
+         | &nbsp; <a href="Libros.html">Libros recomendados </a>&nbsp;  
+        </p> 
+  </nav></center>
+
+<center><h2>Opinión del usuario</h2></center>
+<center><form name="opinionForm" onsubmit="return validarFormulario()" method="POST"></center>
+    <center><label for="nombre">Nombre:</label></center>
+    <center><input type="text" id="nombre" name="nombre" required><br><br></center>
+
+     <center><label for="email">Email:</label></center>
+     <center><input type="email" id="email" name="email" required><br><br></center>
+
+     <center><label for="opinion">Opinión:</label></center>
+                <center><textarea id="opinion" name="opinion" rows="5" cols="50" required></textarea><br><br></center>
+
+     <center><input type="submit" value="Enviar opinión"></center>
+
+      </form>
+   </Body>
+</html>
